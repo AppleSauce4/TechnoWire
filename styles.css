@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: "Custom Font";
+    src: url(images/AgencyFB-Bold.ttf);
+
+}
+
+
+
+header{
+    text-align: center;
+}
+
+.backgroundImage{
+    width: 20%;
+    height: auto;
+    filter: grayscale(100%);
+    
+}
+
+
+html, body {
+    background-image: url(images/achtergrond-website-verkleind.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:auto; 
+    margin:0;
+    font-family: "Custom Font";
+}
+
+
+nav {
+    padding: 10px;
+    position:relative;
+    text-align: center;
+    outline: 2px solid;
+    background-color: #00BBFF;
+}
+
+
+#nav{
+    padding-right: 10px;
+    padding-left: 10px;
+    color:black;
+    font-size: 1.5em;
+    text-decoration: none;
+
+}
+
+
+#nav:hover{
+    background-color:azure;
+    border-radius: 15px;
+    outline: 3px solid black;
+    transition: all 350ms linear;
+    display:inline-block;
+    
+}
+
+.active{
+    border-radius: 15px;
+    outline: 3px solid black;
+
+
+}
+
+footer{
+
+    
+}
