@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: "Custom Font";
     src: url(images/AgencyFB-Bold.ttf);
@@ -8,11 +7,11 @@
 
 
 header{
-    text-align: center;
+
 }
 
 .backgroundImage{
-    width: 20%;
+    width: 30%;
     height: auto;
     filter: grayscale(100%);
     
@@ -30,17 +29,23 @@ html, body {
 
 
 nav {
-    padding: 10px;
-    position:relative;
-    text-align: center;
+    margin-top: 10%;
+    right:0;
+    width: 12.5%;
+    height: 40%;
+    z-index: 1 !important;
+    position: absolute;
     outline: 2px solid;
     background-color: #00BBFF;
+    border-radius: 15px;
+   
+
 }
 
 
 #nav{
-    padding-right: 10px;
-    padding-left: 10px;
+    margin-top: 15px;
+    float:right;
     color:black;
     font-size: 1.5em;
     text-decoration: none;
@@ -50,7 +55,7 @@ nav {
 
 #nav:hover{
     background-color:azure;
-    border-radius: 15px;
+    border-radius: 16px;
     outline: 3px solid black;
     transition: all 350ms linear;
     display:inline-block;
@@ -58,8 +63,10 @@ nav {
 }
 
 .active{
-    border-radius: 15px;
+    background-color:azure;
+    border-radius: 16px;
     outline: 3px solid black;
+    display:inline-block;
 
 
 }
