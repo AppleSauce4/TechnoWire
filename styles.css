@@ -51,6 +51,7 @@ nav {
     color:black;
     font-size: 1.5em;
     text-decoration: none;
+    padding:5px;
 
 }
 
@@ -61,6 +62,7 @@ nav {
     outline: 1px solid black;
     transition: all 350ms linear;
     display:inline-block;
+    padding:6px;
     
 }
 
