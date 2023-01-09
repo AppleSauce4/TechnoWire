@@ -8,14 +8,17 @@
 
 
 header{
-    border: black solid;
-
+    
+   
+    
 }
 
 .backgroundImage{
     width: 30%;
     height: auto;
     filter: grayscale(100%);
+    float: left;
+    
     
 }
 
@@ -25,7 +28,6 @@ body, html {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-   
     width:auto; 
     margin:0;
     font-family: "Custom Font";
@@ -34,7 +36,7 @@ body, html {
 
 
 nav {
-    padding: 5px;
+    padding: 2%;
     right:0;
     height: 50%;
     position: fixed;
@@ -75,3 +77,4 @@ footer{
 
     
 }
+
