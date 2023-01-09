@@ -6,7 +6,9 @@
 
 
 
+
 header{
+    border: black solid;
 
 }
 
@@ -18,26 +20,24 @@ header{
 }
 
 
-html, body {
+body, html {
     background-image: url(images/achtergrond-website-verkleind.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+   
     width:auto; 
     margin:0;
     font-family: "Custom Font";
+    display: static;
 }
 
 
 nav {
-    margin-top: 10%;
+    padding: 5px;
     right:0;
-    width: 12.5%;
-    height: 40%;
-    z-index: 1 !important;
+    height: 50%;
     position: absolute;
-    outline: 2px solid;
-    background-color: #00BBFF;
-    border-radius: 15px;
    
 
 }
@@ -55,8 +55,8 @@ nav {
 
 #nav:hover{
     background-color:azure;
-    border-radius: 16px;
-    outline: 3px solid black;
+    border-radius: 18px;
+    outline: 1px solid black;
     transition: all 350ms linear;
     display:inline-block;
     
@@ -64,8 +64,8 @@ nav {
 
 .active{
     background-color:azure;
-    border-radius: 16px;
-    outline: 3px solid black;
+    border-radius: 18px;
+    outline: 1px solid black;
     display:inline-block;
 
 

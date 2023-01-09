@@ -4,64 +4,104 @@ var quiz = {
   // Q = QUESTION, O = OPTIONS, A = CORRECT ANSWER
   data: [
   {
-    q : "Vraag 1: HTML is de afkorting van...",
+    q : "Welk antwoord past het beste bij de term processor?",
     o : [
-      "Half Time Meeting List",
-      "Hyper Text Markup Language ",
-      "Hot Transmitting Master Leage",
-      "Hyper Telemetric Margin Letters"
+      "Voorziet de computer van stroom",
+      "Zorgt voor beeld",
+      "Grotere opslag voor je computer",
+      "Het hart van de computer"
     ],
-    a : 1 // arrays beginnen met 0, dus het antwoord is "Hyper Text Markup Language"
+    a : 3 
   },
   {
-    q : "Welke tag hoort op de eerste regel van een HTML pagina te staan?",
+    q : "Wat houdt hertz (Hz) in?",
     o : [
-      "&lt;HTML document&gt;",
-      "&lt;TITLE&gt;",
-      "&lt;META link&gt;",
-      "&lt;!DOCTYPE html&gt;"
+      "De snelheid van je SSD",
+      "De snelheid van je CPU",
+      "De snelheid van je toetsenbord",
+      "De hoeveelheid stroom die je voeding kan voorzien aan je computer"
     ],
-    a : 3
+    a : 1
   },
   {
-    q : "Wat is de naam van de eerste webpagina die door een webbrowser  gezocht wordt?",
+    q : "Wat is een socket in je moederbord?",
     o : [
-      "start.html",
-      "home.html",
-      "index.html",
-      "begin.html"
+      "Dit is waar je je voeding aan aansluit",
+      "De socket zorgt er voor dat je HDD aan kan",
+      "Dat is de houder waar je jouw processor in plaatst, deze kan verschillen per moederbord en processor",
+      "Een socket is de houder waar je jou Dvd speler in kan doen"
     ],
     a : 2
   },
   {
-    q : "Wat is de naam van het protocol waarmee je bestanden upload naar de webserver?",
+    q : "Wat is het doel van het Moederbord?",
     o : [
-      "FTP",
-      "HTTP",
-      "XML",
-      "FileZilla"
+      "Voor componenten zorgen",
+      "De behuizing van al je componenten",
+      "zorgt ervoor dat alle componenten in je computer kunnen communiceren met elkaar",
+      "Zorgt voor beeld op je monitor"
+    ],
+    a : 2
+  },
+  {
+    q : "Wat doet de grafische kaart in je computer?",
+    o : [
+      "De GPU berekent de beeldopbouw en versnelt de weergave van 3D-beelden",
+      "Processor koelen",
+      "Heeft niet veel nut om te hebben",
+      "Werkt als dvd speler"
     ],
     a : 0
   },
   {
-    q : "Waar wordt CSS voor gebruikt?",
+    q : "Waar staat GPU voor?",
     o : [
-      "Om interactiviteit aan je webpagina's weer te geven.",
-      "Om de inhoud van je webpagina's weer te geven",
-      "Om de lay-out van je webpagina's weer te geven.",
-      "Om de opmaak van je webpagina's weer te geven"
+      "Graphics Processing Unit",
+      "GUI Processing Unit",
+      "GPU betekent gewoon GPU",
+      "Ik weet het niet"
+    ],
+    a : 0
+  },
+  {
+    q : "Wat is het nut van de voeding?",
+    o : [
+      "Tijdelijke opslagruimte",
+      "verbind alle componenten met elkaar",
+      "Voorziet alleen je processor van stroom",
+      "Voorziet je computer van stroom"
     ],
     a : 3
   },
   {
-    q : "Is dit de laatste vraag?",
+    q : "Welke DDR versies zijn er voor de RAM Modules?",
     o : [
-      "Weet ik niet",
-      "Neen",
-      "Misschien wel",
-      "Dit is het juiste antwoord."
+      "DDR1, DDR6, DDR3 en DDR 5",
+      "DDR1, DDR2, DDR3, DDR4 en DDR5",
+      "DDR0.1, DDR7 en DDR8",
+      "DDR is geen RAM"
+    ],
+    a : 1
+  },
+  {
+    q : "Wat betekent de afkorting SSD?",
+    o : [
+      "Solid Safe Drive",
+      "SSD bestaat niet",
+      "Switch Sorting Device",
+      "Solid State Drive"
     ],
     a : 3
+  },
+  {
+    q : "Wat is het verschil tussen een SSD en HDD",
+    o : [
+      "SSD maakt geen gebruik van een draaischijf, maar van elektrische lading. Waardoor de SSD zo'n 4x sneller is dan een HDD",
+      "Er is bijna geen verschil tussen deze 2 soorten schijven",
+      "Een HDD maakt gebruik van een draaischijf, waardoor hij sneller is dan een SSD",
+      "Een HDD is kleiner, maar wel veel langzamer dan een SSD"
+    ],
+    a : 0
   }
   ],
 
