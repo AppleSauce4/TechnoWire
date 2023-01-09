@@ -37,7 +37,7 @@ nav {
     padding: 5px;
     right:0;
     height: 50%;
-    position: absolute;
+    position: fixed;
    
 
 }
@@ -54,7 +54,7 @@ nav {
 
 
 #nav:hover{
-    background-color:azure;
+    background-color:rgb(204, 254, 254);
     border-radius: 18px;
     outline: 1px solid black;
     transition: all 350ms linear;
@@ -63,7 +63,7 @@ nav {
 }
 
 .active{
-    background-color:azure;
+    background-color:rgb(204, 254, 254);
     border-radius: 18px;
     outline: 1px solid black;
     display:inline-block;
