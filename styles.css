@@ -76,14 +76,41 @@ nav {
 }
 
 .mainp {
-    width: 50%;
-    padding-left:1%;
+
+    font-size: 1.1em;
+    
+
 }
+
 
 .mainp1 {
     width: 50%;
     padding-left:1%;
 }
+
+.mainp2 {
+    width: 50%;
+    padding-left:1%;
+}
+
+.mainp3 {
+
+    width: 50%;
+    padding-left:1%;
+}
+
+.randomimg {
+
+    width: 25%;
+    padding-left: 1%;
+}
+
+.randomimg1 {
+
+    width: 30%;
+    padding-left: 1%;
+}
+
 footer{
 
     
