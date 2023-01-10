@@ -11,6 +11,8 @@ header{
     border-bottom: 3px solid black;
     width: auto;
     height: 7em;     
+    background: rgb(0,218,255);
+    background: radial-gradient(circle, rgba(0,218,255,1) 21%, rgba(0,187,255,1) 34%, rgba(0,178,255,1) 45%, rgba(0,60,255,1) 61%, rgba(9,9,121,1) 99%);
 }
 
 .backgroundImage{
@@ -40,6 +42,7 @@ nav {
     right:0;
     height: 50%;
     position: fixed;
+    z-index: 1 ;
    
 
 }
@@ -76,39 +79,46 @@ nav {
 }
 
 .mainp {
-
-    font-size: 1.1em;
-    
-
+    width: 49%;
+    background-color: rgba(255, 255, 255, 0.750);
+    float: left;
+    padding-left:0.5%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    border: 1px solid black; 
+    border-radius: 15px;
+    position: absolute;
 }
-
 
 .mainp1 {
-    width: 50%;
-    padding-left:1%;
+    font-size: 14pt;
 }
 
-.mainp2 {
-    width: 50%;
-    padding-left:1%;
+.mainI{
+    position: relative;
+    width: 49%;
+    float: right;
 }
 
-.mainp3 {
 
-    width: 50%;
-    padding-left:1%;
-}
 
 .randomimg {
-
-    width: 25%;
-    padding-left: 1%;
+    height: 30%;
+    width: 30%;
+    margin-left: 1%;
+    border: 2px solid white;
+    object-fit: contain;
+    margin-top: 1%;
 }
 
 .randomimg1 {
 
     width: 30%;
-    padding-left: 1%;
+    height: 30%;
+    margin-left: 1%;
+    margin-top: 1%;
+    object-fit: contain;
+    border: 2px solid white;
 }
 
 footer{
