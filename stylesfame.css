@@ -94,6 +94,7 @@
   
   /* The actual content */
   .content {
+    font-size: 14pt;
     padding: 20px 30px;
     background-color: rgba(255, 255, 255, 0.750);
     position: relative;
@@ -133,13 +134,123 @@
     }
   }
 
-  #stevejobs {
-    width: 40%;
+  #bill {
+    width: 50%;
     margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
 
   }
 
   #charles {
     width: 40%;
     margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+  }
+
+  #ada {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #grace {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #william {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #gordon {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #wozniak {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #steve {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #kevin {
+    width: 55%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #rich {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #linus {
+    width: 55%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #larry {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #sergey {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #chad {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #chen{
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #karim {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  #zuckerberg {
+    width: 40%;
+    margin-top: 1%;
+    border: 2px solid black;
+    border-radius: 10px;
   }
